@@ -79,6 +79,15 @@ namespace Petfolio.Exception {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fur color is required.
+        /// </summary>
+        public static string FUR_COLOR_IS_REQUIRED {
+            get {
+                return ResourceManager.GetString("FUR_COLOR_IS_REQUIRED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Gender is invalid.
         /// </summary>
         public static string GENDER_TYPE_INVALID {
@@ -93,6 +102,24 @@ namespace Petfolio.Exception {
         public static string NAME_REQUIRED {
             get {
                 return ResourceManager.GetString("NAME_REQUIRED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reproductive status is invalid.
+        /// </summary>
+        public static string REPRODUCTIVE_STATUS_INVALID {
+            get {
+                return ResourceManager.GetString("REPRODUCTIVE_STATUS_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Size is invalid.
+        /// </summary>
+        public static string SIZE_INVALID {
+            get {
+                return ResourceManager.GetString("SIZE_INVALID", resourceCulture);
             }
         }
         

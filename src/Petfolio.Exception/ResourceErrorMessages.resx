@@ -138,4 +138,13 @@
   <data name="UNKNOWN_ERROR" xml:space="preserve">
     <value>Unknown error</value>
   </data>
+  <data name="SIZE_INVALID" xml:space="preserve">
+    <value>Size is invalid</value>
+  </data>
+  <data name="FUR_COLOR_IS_REQUIRED" xml:space="preserve">
+    <value>Fur color is required</value>
+  </data>
+  <data name="REPRODUCTIVE_STATUS_INVALID" xml:space="preserve">
+    <value>Reproductive status is invalid</value>
+  </data>
 </root>

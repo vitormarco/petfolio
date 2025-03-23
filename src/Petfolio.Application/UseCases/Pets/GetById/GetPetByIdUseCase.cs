@@ -11,7 +11,7 @@ public class GetPetByIdUseCase
         {
             Id = id,
             Name = "Dinho",
-            Type = SpeciesType.Feline,
+            Type = SpecieType.Feline,
             BirthDay = new DateTime(year: 2009, month: 1, day: 1),
         };
     }

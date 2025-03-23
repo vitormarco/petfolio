@@ -1,6 +1,6 @@
 ﻿namespace Petfolio.Communication.Enums;
 
-public enum SpeciesType
+public enum SpecieType
 {
     Feline = 0,
     Canine = 1,

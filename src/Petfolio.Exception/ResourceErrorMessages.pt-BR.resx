@@ -138,4 +138,13 @@
   <data name="UNKNOWN_ERROR" xml:space="preserve">
     <value>Erro desconhecido</value>
   </data>
+  <data name="SIZE_INVALID" xml:space="preserve">
+    <value>O tamanho é inválido</value>
+  </data>
+  <data name="FUR_COLOR_IS_REQUIRED" xml:space="preserve">
+    <value>A cor da pelagem é obrigatória</value>
+  </data>
+  <data name="REPRODUCTIVE_STATUS_INVALID" xml:space="preserve">
+    <value>O estado reprodutivo é inválido</value>
+  </data>
 </root>

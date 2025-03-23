@@ -6,5 +6,5 @@ public class ResponseShortPetJson
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
-    public SpeciesType Type { get; set; }
+    public SpecieType Type { get; set; }
 }

@@ -15,31 +15,31 @@ public class GetAllPetsUseCase
                 {
                     Id = 1,
                     Name = "Dinho",
-                    Type = SpeciesType.Feline,
+                    Type = SpecieType.Feline,
                 },
                 new ResponseShortPetJson
                 {
                     Id = 2,
                     Name = "Snowbell",
-                    Type = SpeciesType.Feline,
+                    Type = SpecieType.Feline,
                 },
                 new ResponseShortPetJson
                 {
                     Id = 3,
                     Name = "Floki",
-                    Type = SpeciesType.Canine,
+                    Type = SpecieType.Canine,
                 },
                 new ResponseShortPetJson
                 {
                     Id = 4,
                     Name = "Ghost",
-                    Type = SpeciesType.Canine,
+                    Type = SpecieType.Canine,
                 },
                 new ResponseShortPetJson
                 {
                     Id = 5,
                     Name = "Pantera",
-                    Type = SpeciesType.Feline,
+                    Type = SpecieType.Feline,
                 },
             }
         };

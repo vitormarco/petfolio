@@ -26,5 +26,15 @@ public class RegisterPetValidator : AbstractValidator<RequestPetJson>
         RuleFor(pet => pet.Gender)
             .IsInEnum()
             .WithMessage(ResourceErrorMessages.GENDER_TYPE_INVALID);
+        RuleFor(pet => pet.FurColor)
+            .NotEmpty()
+            .WithMessage(ResourceErrorMessages.FUR_COLOR_IS_REQUIRED);
+        RuleFor(pet => pet.ReproductiveStatus)
+            .IsInEnum()
+            .WithMessage(ResourceErrorMessages.REPRODUCTIVE_STATUS_INVALID);
+        RuleFor(pet => pet.Size)
+            .IsInEnum()
+            .WithMessage(ResourceErrorMessages.SIZE_INVALID)
+            .When(pet => pet.Size.HasValue);
     }
 }
